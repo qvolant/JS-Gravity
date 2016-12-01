@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  /*animation: rainbow 1s linear infinite;*/
+
+}
+
+#areadiv {
+  width: 700px;
+  height: 450px;
+  border: 10px solid black;
+  animation: rainbow 60s linear infinite;
+}
+
+#ball {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+#ballshape {
+  border: 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -30px;
+  left: -30px;
+  background-image: url('../images/smiley.png');
+  background-position: center center;
+  background-size: contain;
+}
+
+@keyframes rainbow {
+  0% {
+    background-color: #ffffff;
+  }
+  15% {
+    background-color: #ffff61;
+  }
+  30% {
+    background-color: #4dfe4d;
+  }
+  45% {
+    background-color: #21a3ff;
+  }
+  60% {
+    background-color: #845593;
+  }
+  75% {
+    background-color: #ff63e6;
+  }
+  90% {
+    background-color: #fa5b5b
+  }
+  100% {
+    background-color: #ffffff;
+  }
+}
