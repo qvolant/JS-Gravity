@@ -7,7 +7,7 @@ function onload() {
   var ay = 0.3;
   var deg = 0;
   var vr = 0;
-  var air = 0.999
+  var air = 0.99;
 
   var areaW = 700;
   var areaH = 450;
